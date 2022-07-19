@@ -399,7 +399,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6680672558089880230}
   - component: {fileID: 6769685533716083544}
-  - component: {fileID: 616990141110116150}
+  - component: {fileID: 6676165398021147429}
   m_Layer: 0
   m_Name: Left Hand
   m_TagString: Untagged
@@ -414,7 +414,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6674449189618276610}
-  m_LocalRotation: {x: 0, y: 0, z: 0.6427876, w: 0.7660445}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -428,7 +428,7 @@ Transform:
   - {fileID: 6677129040095137034}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 80}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &6769685533716083544
 Animator:
   serializedVersion: 3
@@ -448,7 +448,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &616990141110116150
+--- !u!114 &6676165398021147429
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -457,11 +457,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 6674449189618276610}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad82963d254935b42ac5492275f0e4b2, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hand: {fileID: 6769685533716083544}
-  gripButton: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  m_Device: 1
+  m_PoseSource: 4
+  m_PoseProviderComponent: {fileID: 0}
+  m_TrackingType: 0
+  m_UpdateType: 0
+  m_UseRelativeTransform: 0
 --- !u!1 &6674481309556973652
 GameObject:
   m_ObjectHideFlags: 0
